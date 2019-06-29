@@ -1,0 +1,35 @@
+{
+	"name": "cassius",
+	"version": "0.4.0",
+	"description": "A bot for Pokemon Showdown",
+	"author": {
+		"name": "Quinton Lee",
+		"email": "quivistis@gmail.com"
+	},
+	"scripts": {
+		"start": "node app.js",
+		"test": "eslint --cache . && tsc && mocha --exit"
+	},
+	"main": "app.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sirDonovan/Cassius.git"
+	},
+	"dependencies": {
+		"websocket": "1.0.28"
+	},
+	"devDependencies": {
+		"typescript": "2.8.3",
+		"eslint": "4.16.0",
+		"mocha": "5.0.0",
+		"@types/mocha": "2.2.41",
+		"@types/node": "8.5.8",
+		"@types/websocket": "0.0.33"
+	},
+	"engine-strict": true,
+	"engines": {
+		"node": ">=6.0.0"
+	},
+	"private": true,
+	"license": "MIT"
+}
