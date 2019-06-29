@@ -10,12 +10,12 @@
 'use strict';
 
 // The username and password that Cassius will use to login
-exports.username = 'The Bot Of Arifin';
+exports.username = '';
 // leave this blank if the username is unregistered
-exports.password = '1234567890';
+exports.password = '';
 
 // The server address to which Cassius will connect
-exports.server = 'historical-backpack.glitch.me-80';
+exports.server = '';
 
 // The avatar that Cassius will use
 exports.avatar = '120';
@@ -63,16 +63,16 @@ exports.bannedWords = [];
 // Userids of those who have debug access to Cassius
 // example: exports.developers = ['devuser1', 'devuser2', 'devuser3'];
 /**@type {Array<string>} */
-exports.developers = ['arifin','pratikcool','deltasummer','pokem9n','partman'];
+exports.developers = [];
 
 // Custom functions
 /**@type {?Function} */
-exports.parseMessage = true;
+exports.parseMessage = false;
 /**@type {?Function} */
-exports.moderate = true;
+exports.moderate = false;
 
 /**@type {boolean | {[k: string]: boolean}} */
-exports.allowModeration = true;
+exports.allowModeration = false;
 
 let punishmentPoints = {
 	'verbalwarn': 0,
@@ -97,4 +97,4 @@ exports.punishmentActions = punishmentActions;
 /**@type {?{[k: string]: string}} */
 exports.punishmentReasons = null;
 
-exports.allowMail = true;
+exports.allowMail = false;
