@@ -210,6 +210,9 @@ let commands = {
   discord: function (target,room ,user) {
     this.say ("Yo! Dont forget to join our Server's Discord! Link- https://discord.gg/GRpa3t");
   },
+	git: function (target,room,user) {
+    this.say ("The Bot Of Arifin is made by Sir Arifin. Link- https://github.com/Arifin6686/Cyro-Phoenix")
+  },
   
   selfamy: function (target,room,user) {
     if (!user.isDeveloper() && !user.hasrank(room, '@'));
