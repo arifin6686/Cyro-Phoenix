@@ -52,6 +52,10 @@ const roast = ["Scientists say the universe is made up of neutrons, protons and 
               "Save your breath – you’ll need it to blow up your date.",
               "You’re not stupid; you just have bad luck when thinking."];
 const welcome = ["Welcome to the best server! Hope u enjoy! make friends and chill and do many more interesting thingS!"]
+const wyr = ["Would you rather : Be a lion or a tiger?",
+            "Would you rather : Lose the ability to read or lose the ability to speak?",
+            "Would you rather : Have a golden voice or a silver tongue?",
+            "Would You rather : Always be 10 minutes late or always be 20 minutes early"];
 class MATH {
   add(a,b){
     let result = +a + +b;
@@ -143,6 +147,10 @@ let commands = {
      if(joinArray == target) {
        return this.say("you spotted a palindrome! " + joinArray);}
     return this.say(joinArray);
+  },
+	wyr: function (target,room,user ) {
+    if (!user.isDeveloper() && !user.hasRank(room, '+') && (!Games.host || Games.host.id !== user.id)) return;
+  room.say(Tools.sample(wyr));
   },
   
   
