@@ -44,7 +44,10 @@ const song = ["You need to calm down- Taylor Swift",
              "Blank Space - Taylor Swift",
              "Believer - Imagine Dragons",
              "Sucker - Jonas Brothers",
-             "Rewrite The Stars - Zac Efron"];
+             "Rewrite The Stars - Zac Efron",
+	     "Baby - Justin Biever",
+	     "Love Yourself - Justin Bieber",
+	     "Never gonna give you up - Rick Astley"];
 const roast = ["Scientists say the universe is made up of neutrons, protons and electrons. They forgot to mention morons.",
                "I’m sorry, was I meant to be offended? The only thing offending me is your face.",
               "Someday you’ll go far… and I hope you stay there.",
@@ -58,29 +61,7 @@ const wyr = ["Would you rather : Be a lion or a tiger?",
             "Would you rather : Lose the ability to read or lose the ability to speak?",
             "Would you rather : Have a golden voice or a silver tongue?",
             "Would You rather : Always be 10 minutes late or always be 20 minutes early"];
-class MATH {
-  add(a,b){
-    let result = +a + +b;
-    return result;
-  }
-  
-  substract(a,b){
-    let result = a - b;
-    return result;
-  }
-  
-  mult(a,b){
-    let result = a * b;
-    return result;
-  }
-  
-  div(a,b){
-    let result = a / b;
-    return result;
-  }
-}
 
-let math = new MATH();
 
 // Users who use the settour command when a tournament is already
 // scheduled will be added here and prompted to reuse the command.
