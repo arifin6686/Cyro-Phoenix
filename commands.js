@@ -243,21 +243,28 @@ let commands = {
    },
 
   
-  ping: function (target, room, user) {
-          if(!(room instanceof Users.User) && !user.hasRank(room, '+')) return;
-          var rate = Math.floor((Math.random() * 10) + 1);
-          if(rate == 1){
-          this.say("You win");
-    } 
-
-          else if(rate == 4){
-          this.say("You lose");
-        //  this.say("/mute " + user.id + ", fuck u");
+   ping: {
+    command(target, room, user) {
+      if (!(room instanceof Users.User) && !user.hasRank(room, "+")) return;
+      var rate = Math.floor((Math.random() * 10) + 1);
+      if (rate == 1) {
+        this.say("You win");
+      } else if (rate == 4) {
+        this.say("You lose");
+      } else {
+        this.say("Pong!");
+      }
     }
-    else{
-      this.say("Pong!");
-
-  }},
+  },
+	
+ vibe: {
+    command(target, room, user){
+      if (room instanceof Users.User || !user.hasRank(room, '+')) return;
+      let rate = Math.floor(Math.random() * 100 + 1);
+      let vibe = '<img src="https://cdn.discordapp.com/emojis/682731600479518730.gif" alt="vibe" height="60" width="60"/>';
+      room.say("/adduhtml vibe, " + vibe.repeat(rate));
+    },
+  },
   j: 'judge',
         judge:  function (target, room, user) {
         var judgement = [" is so cute"," is the worst!!!"," is um eh not bad "," is the best"," is ok","nothing"];
