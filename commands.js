@@ -21,8 +21,10 @@ const jokes = ["How does a tree go? It leaves.",
 			   "Whats a ghosts favorite fruit? Booberries.",
 			   "Whats a vampires favorite fruit? Necktarines.",
 			   "What do you get when you cross a snowman and a vampire? Frostbite.",
-			   "What do you call it when you Santa stops moving? Santa Pause."
-				]
+			   "What do you call it when you Santa stops moving? Santa Pause.",
+	                   "Why do we tell actors to 'break a leg?' Because every play has a cast.",
+			   "Helvetica and Times New Roman walk into a bar.'Get out of here!' shouts the bartender. 'We don’t serve your type.'",
+	                   "Hear about the new restaurant called Karma? There’s no menu: You get what you deserve."]
 const funnyquote = ["Someone just farted! maybe its me!",
                   "What is the best thing to do when you have a hole in a boat and water is leaking inside? Make another hole to drain the water",
                    "I finally realized that people are prisoners of their phones... that's why it's called a 'cell' phone.",
