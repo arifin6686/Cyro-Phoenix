@@ -369,6 +369,76 @@ deva: function (target,room, user) {
 		this.say("Timer set for " + (minutes > 0 ? "1 minute" + (seconds > 0 ? " and " : "") : "") + (seconds > 0 ? ((seconds) + " second" + (seconds > 1 ? "s" : "")) : "") + ".");
 		setTimeout(() => this.say("Times Up!"), x * 1000);
 	},
+	
+	helix: "8ball",
+  "8ball": {
+    command(target, room, user) {
+      if (!(room instanceof Users.User) && !user.hasRank(room, "+")) return;
+      let cases = [
+        "Signs point to yes.",
+        "Yes.",
+        "Reply hazy,try again.",
+        "Without a doubt.",
+        "My sources say no.",
+        "As I see it, yes.",
+        "You may rely on it.",
+        "Concentrate and ask again.",
+        "Outlook not so good.",
+        "It is decidedly so.",
+        "Very doubtful.",
+        "Better not tell you now.",
+        "Yes - definitely.",
+        "It is certain.",
+        "Cannot predict now.",
+        "Most likely.",
+        "Ask again later.",
+        "My reply is no.",
+        "Outlook good.",
+        "Don't count on it."
+      ];
+      this.say(Tools.sampleOne(cases));
+    }
+  },
+	
+	cal: "calculate",
+  calculate: {
+    command(target, room, user) {
+      if (!(room instanceof Users.User) && !user.hasRank(room, "+")) return;
+      let alphabets = [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "j",
+        "k",
+        "l",
+        "m",
+        "n",
+        "o",
+        "p",
+        "q",
+        "r",
+        "s",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y",
+        "z"
+      ];
+      let cond = true;
+      for (let i = 0; i < alphabets.length; i++) {
+        if (target.includes(alphabets[i])) cond = false;
+      }
+      if (cond == true) return this.say(eval(target));
+    }
+  },
+	
    
   roll: function (target, room, user) {
 		let realtarget = target;
