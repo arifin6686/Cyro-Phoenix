@@ -8,7 +8,7 @@
  */
 
 'use strict';
-const gifts = ["A new pair of pants", "A hug C:", "The new copy of sun and moon you were hoping for!"];
+const gifts = ["A new pair of pants", "A hug C:", "The new copy of sun and moon you were hoping for!", "a chocolate", "a pikachu!", "a pillow lol", "a macbook", "an iphone", "a suitcase", "whatever you want-", "a special room", "a private jet!"];
 const jokes = ["How does a tree go? It leaves.",
 			  "Why didn't the skeleton go to the party? He had no-body to dance with!",
 			  "Why didn't the skeleton cross the road? Because he didn't have the guts!",
