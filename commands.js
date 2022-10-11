@@ -24,7 +24,11 @@ const jokes = ["How does a tree go? It leaves.",
 			   "What do you call it when you Santa stops moving? Santa Pause.",
 	                   "Why do we tell actors to 'break a leg?' Because every play has a cast.",
 			   "Helvetica and Times New Roman walk into a bar.'Get out of here!' shouts the bartender. 'We don’t serve your type.'",
-	                   "Hear about the new restaurant called Karma? There’s no menu: You get what you deserve."]
+	                   "Hear about the new restaurant called Karma? There’s no menu: You get what you deserve.",
+	      " What do you call a boomerang that won’t come back? A stick",
+	      "What musical instrument is found in the bathroom? a tuba toothpaste", 
+	      "Where would you find an elephant? the same place where you lsot her.",
+	      "How do you get a squirrel to like you? act like a nut!"]
 const funnyquote = ["Someone just farted! maybe its me!",
                   "What is the best thing to do when you have a hole in a boat and water is leaking inside? Make another hole to drain the water",
                    "I finally realized that people are prisoners of their phones... that's why it's called a 'cell' phone.",
