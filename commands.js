@@ -76,7 +76,12 @@ const welcome = ["Welcome to the best server! Hope u enjoy! make friends and chi
 const wyr = ["Would you rather : Be a lion or a tiger?",
             "Would you rather : Lose the ability to read or lose the ability to speak?",
             "Would you rather : Have a golden voice or a silver tongue?",
-            "Would You rather : Always be 10 minutes late or always be 20 minutes early"];
+            "Would You rather : Always be 10 minutes late or always be 20 minutes early",
+	    "Would You rather : Be a noob or a pro?",
+	     "Would You rather : eat chocolate or burger? (weird options, ikr) ",
+	     "Would You rather : play fornite or pubg?",
+	     "Would You rather : go for a vacation or study whole night?",
+	     "Would You rather : play pokemon go or pokemon unite?"];
 
 
 // Users who use the settour command when a tournament is already
