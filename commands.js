@@ -27,8 +27,14 @@ const jokes = ["How does a tree go? It leaves.",
 	                   "Hear about the new restaurant called Karma? There’s no menu: You get what you deserve.",
 	      " What do you call a boomerang that won’t come back? A stick",
 	      "What musical instrument is found in the bathroom? a tuba toothpaste", 
-	      "Where would you find an elephant? the same place where you lsot her.",
-	      "How do you get a squirrel to like you? act like a nut!"]
+	      "Where would you find an elephant? the same place where you lost her.",
+	      "How do you get a squirrel to like you? act like a nut!",
+	      "Dogs don't operate MRI machines. But catscan.
+",
+"Why did the man propose to the woman working at the zoo? Coz She is a keeper!",
+	      "What did the skillet eat on its birthday? Pan cakes.",
+"Why shouldn’t you fall in love with a pastry chef? He’ll dessert you!",
+	      "I was going to try an all almond diet, but that's just nuts."];
 const funnyquote = ["Someone just farted! maybe its me!",
                   "What is the best thing to do when you have a hole in a boat and water is leaking inside? Make another hole to drain the water",
                    "I finally realized that people are prisoners of their phones... that's why it's called a 'cell' phone.",
