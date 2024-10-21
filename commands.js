@@ -87,6 +87,8 @@ const wyr = ["Would you rather : Be a lion or a tiger?",
 	     "Would You rather : go for a vacation or study whole night?",
 	     "Would You rather : play pokemon go or pokemon unite?"];
 
+const byemsg = ['Bye!, Make sure to come back once at least...', 'Buh-Bye!', 'See ya mate! ttyl', 'Cya!'];
+
 
 // Users who use the settour command when a tournament is already
 // scheduled will be added here and prompted to reuse the command.
@@ -159,6 +161,11 @@ let commands = {
 	wyr: function (target,room,user ) {
     if (!user.isDeveloper() && !user.hasRank(room, '+') && (!Games.host || Games.host.id !== user.id)) return;
   room.say(Tools.sample(wyr));
+  },
+
+	byemsg: function (target,room,user ) {
+    if (!user.isDeveloper() && !user.hasRank(room, '+') && (!Games.host || Games.host.id !== user.id)) return;
+  room.say(Tools.sample(byemsg));
   },
   
   
