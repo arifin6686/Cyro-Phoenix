@@ -98,7 +98,11 @@ const wyr = ["Would you rather : Be a lion or a tiger?",
 	     "Would You rather : eat chocolate or burger? (weird options, ikr) ",
 	     "Would You rather : play fornite or pubg?",
 	     "Would You rather : go for a vacation or study whole night?",
-	     "Would You rather : play pokemon go or pokemon unite?"];
+	     "Would You rather : play pokemon go or pokemon unite?",
+	    "Would You rather : play pokemon or slugterra?",
+	    "Would you rather : Get a Large Mansion or Get a large yacht?",
+	    "Would You rather : play Free Fire or PUBG?",
+	"Would you rather : play Roblox or Fortnite?"];
 
 const byemsg = ['Bye!, Make sure to come back once at least...', 'Buh-Bye!', 'See ya mate! ttyl', 'Cya!'];
 
